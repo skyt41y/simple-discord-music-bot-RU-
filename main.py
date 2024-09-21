@@ -60,6 +60,6 @@ client = commands.Bot(command_prefix='/', intents=intents)
 
 async def main():
     await client.add_cog(MusicBot(client))
-    await client.start('')
+    await client.start('') #enter this your discord token 
 
 asyncio.run(main())  
